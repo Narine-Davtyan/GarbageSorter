@@ -162,6 +162,7 @@
     <Content Include="Content\bootstrap-5.1.3\js\bootstrap.esm.min.js" />
     <Content Include="Content\bootstrap-5.1.3\js\bootstrap.js" />
     <Content Include="Content\bootstrap-5.1.3\js\bootstrap.min.js" />
+    <Content Include="Content\CustomStyles\card-view.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -203,13 +204,22 @@
     <Content Include="Content\Images\foto3.jfif" />
     <Content Include="Content\Images\foto4.jfif" />
     <Content Include="Content\Images\logo.jfif" />
+    <Content Include="Templates\articles.html" />
+    <Content Include="Templates\books.html" />
+    <Content Include="Templates\company-profile - settings.html" />
+    <Content Include="Templates\company-profile.html" />
     <Content Include="Templates\company.html" />
     <Content Include="Templates\companies.html" />
     <Content Include="Templates\feedback.html" />
+    <Content Include="Templates\news.html" />
+    <Content Include="Templates\person-profile - settings.html" />
+    <Content Include="Templates\person-profile.html" />
     <Content Include="Templates\post.html" />
-    <Content Include="Templates\person.html" />
     <Content Include="Templates\index.html" />
     <Content Include="Content\CustomStyles\style.css" />
+    <Content Include="Templates\questions.html" />
+    <Content Include="Templates\services.html" />
+    <Content Include="Templates\videos.html" />
     <Content Include="Templates\Web.config" />
     <Content Include="Templates\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
