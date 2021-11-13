@@ -127,5 +127,11 @@ footer{
     
 }
 
+.content {
+   height: 450px;
+}
 
-
+iframe {
+    width: 90%;
+    height: 90%;
+}
