@@ -1,5 +1,6 @@
 ﻿body {
 }
+
 #content {
     margin:5px;
     padding-bottom:20px;
@@ -26,12 +27,14 @@
     font-family: 'Times New Roman';
 }
 
+
+
 .card {
     margin: 30px;
     padding: 20px;
     width: 33%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px #013709;
     background-color: #e0fed5;
 }
@@ -40,8 +43,47 @@
         margin: 30px;
         width: 100px;
         height: 50%;
-        border-radius: 20px;
     }
+
+
+@media (max-width: 700px){
+    .text{
+        font-size:10px;
+    }
+
+    .card.image{
+        display:none;
+    }
+
+    #row {
+        display:contents;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 50%;
+        width: 100%;
+    }
+
+    .card {
+        margin: 30px;
+        padding: 20px;
+        min-width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #013709;
+        background-color: #e0fed5;
+    }
+
+    img{
+        margin:-10px;
+        max-width: 50px;
+        max-height: 30px;
+    }
+
+    #txt{
+        display:none;
+    }
+}
+
 /*.card.image {
     margin: 30px;
     width: 90px;
