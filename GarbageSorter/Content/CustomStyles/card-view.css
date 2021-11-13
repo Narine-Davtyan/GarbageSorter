@@ -22,9 +22,10 @@
 }
 
 .title {
-    text-align: center;
+    text-align: left;
     color: #1b6801;
     font-family: 'Times New Roman';
+    margin-left:30px;
 }
 
 
@@ -46,14 +47,38 @@
     }
 
 
-@media (max-width: 700px){
+@media (max-height: 550px){
+    .text {
+        font-size: 10px;
+    }
+
+    .card {
+        margin: 30px;
+        padding: 20px;
+        min-width: 200px;
+        height: 100px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #013709;
+        background-color: #e0fed5;
+    }
+
+    #txt {
+        display: none;
+    }
+
+    img {
+        margin: -10px;
+        max-width: 50px;
+        max-height: 30px;
+    }
+}
+
+
+@media (max-width: 800px){
     .text{
         font-size:10px;
     }
 
-    .card.image{
-        display:none;
-    }
 
     #row {
         display:contents;
@@ -66,7 +91,7 @@
     .card {
         margin: 30px;
         padding: 20px;
-        min-width: 100px;
+        min-width: 200px;
         height: 100px;
         border-radius: 10px;
         box-shadow: 5px 5px 10px #013709;
