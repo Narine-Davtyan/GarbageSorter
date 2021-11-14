@@ -3,11 +3,15 @@
 
 #logo {
     max-width: 200px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 #more {
     display: none;
+}
+
+#group {
+    background-color: #e0ffd4;
 }
 
 .btn {
@@ -17,24 +21,28 @@
     margin: 2px;
     border: solid 1px #535353;
     box-shadow: 1px 1px 1px 1px #151515;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
+    .btn.btn-account {
+        height:100%;
+    }
+
 #services {
-    margin-bottom:20px;
-    max-height:200px;
+    margin-bottom: 20px;
+    max-height: 200px;
     overflow: scroll;
 }
 
 
-#services button {
-    margin: 2px;
-}
+    #services button {
+        margin: 2px;
+    }
 
-#services input {
-    margin: 5px;
-    width: 100%;
-}
+    #services input {
+        margin: 5px;
+        width: 100%;
+    }
 
 h5 {
     color: #3523df
