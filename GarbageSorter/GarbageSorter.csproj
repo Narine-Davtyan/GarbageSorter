@@ -165,7 +165,9 @@
     <Content Include="Content\CustomStyles\card-view.css" />
     <Content Include="Content\CustomStyles\company.css" />
     <Content Include="Content\CustomStyles\library.css" />
+    <Content Include="Content\Images\Capture_2021_11_15_19_09_41_2.png" />
     <Content Include="favicon.ico" />
+    <Content Include="Game\Garbage collector5.exe" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\bootstrap-5.1.3\css\bootstrap-grid.css.map" />
