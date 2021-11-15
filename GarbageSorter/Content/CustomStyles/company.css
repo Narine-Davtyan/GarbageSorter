@@ -28,6 +28,10 @@
         height:100%;
     }
 
+    .btn.btn-send{
+        width:200px;
+    }
+
 #services {
     margin-bottom: 20px;
     max-height: 200px;
