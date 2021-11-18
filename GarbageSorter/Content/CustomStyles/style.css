@@ -3,6 +3,10 @@ nav {
     background-color: hsl(103, 26%, 56%);
 }
 
+nav {
+    height: 60px;
+}
+
     nav a {
         /*color: rgb(15, 14, 24);*/
         color: black;
@@ -18,8 +22,7 @@ nav {
     right: 20px;
 }
 
-/*new changes*/
-
+/*NAVBAR menu lists*/
 .menu-area ul {
     list-style: none;
 }
@@ -30,7 +33,7 @@ nav {
     position: absolute;
     top: 10%;
     bottom: 50%;
-    transform: translate(10%, -50%)
+    transform: translate(10%, -50%);
 }
 
     .menu-area > ul {
@@ -52,10 +55,7 @@ nav {
 
             .menu-area > ul > li:hover {
                 background-color: #96d991;
-                border-top-left-radius: 5px;
-                border-bottom-left-radius: 5px;
-                border-top-right-radius: 5px;
-                border-bottom-right-radius: 5px;
+                border-radius: 5px;
             }
 
 .dropdown {
@@ -72,20 +72,51 @@ nav {
         display: none;
     }
 
-        /*stop effect content li*/
         .dropdown li:hover {
             background-color: #96d99f;
         }
-
 
 .menu-area li:hover > .dropdown li {
     display: block;
 }
 
+.humburger {
+    display: none;
+    position: absolute;
+    height: 50px;
+    width: 10%;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+    .humburger div {
+        border: solid 1px #000;
+        background-color: #000;
+        box-shadow: 2px 2px 2px #013709;
+        border-radius: 30px;
+        height: 7px;
+        width: 40px;
+        transform: translate(10%, 0);
+        margin-bottom: 10px;
+        margin-top:5px
+    }
+
+@media only screen and (max-width: 1000px) {
+    .menu-area {
+        display: none;
+    }
+
+    .humburger {
+        display: block;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+/*NAVBAR menu lists*/
 
 
-
-/*new changes*/
 
 .hayastan {
     text-align: center;
