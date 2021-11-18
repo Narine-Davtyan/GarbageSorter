@@ -28,7 +28,7 @@ nav {
 }
 
 .menu-area {
-    display: inline-block;
+    display: block;
     text-align: center;
     position: absolute;
     top: 10%;
@@ -53,9 +53,11 @@ nav {
             cursor: pointer;
             float: left;
             font-size: 14px;
-            font-style: oblique;
-            width: 136px;
+            width: auto;
             line-height: 50px;
+            margin-left: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
 
             .menu-area > ul > li:hover {
