@@ -61,12 +61,16 @@ nav {
 
             .menu-area > ul > li b:after {
                 content: "\25BC";
-                /*25B2   25BC*/
+                position: absolute;
+                margin-left: 2px;
+                font-size: 12px;
             }
 
             .menu-area > ul > li:hover b:after {
                 content: "\25B2";
-                /*25B2   25BC*/
+                position: absolute;
+                margin-left: 2px;
+                font-size: 12px;
             }
 
             .menu-area > ul > li b {
