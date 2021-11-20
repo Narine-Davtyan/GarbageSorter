@@ -36,10 +36,11 @@ nav {
     transform: translate(15%, -50%);
 }
 
-    .menu-area > ul > li a{
-        text-decoration:none;
-        font-weight:bold;
+    .menu-area > ul > li a {
+        text-decoration: none;
+        font-weight: bold;
     }
+
 
     .menu-area > ul {
         list-style: none;
@@ -58,27 +59,44 @@ nav {
             padding: 7px;
         }
 
+            .menu-area > ul > li b:after {
+                content: "\25BC";
+                /*25B2   25BC*/
+            }
+
+            .menu-area > ul > li:hover b:after {
+                content: "\25B2";
+                /*25B2   25BC*/
+            }
+
+            .menu-area > ul > li b {
+                margin-right: 10px;
+            }
+
+
             .menu-area > ul > li:hover {
-                background-color: #96d991;
             }
 
 .dropdown {
     position: absolute;
-    top: 1%;
+    top: 15px;
     width: 100%;
     left: -15%;
-    
 }
+
 
     .dropdown li {
         background-color: #96d991;
         left: 0;
         display: none;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-        .dropdown li:hover {
-            background-color: #96d99f;
-        }
+.has-submenu {
+    position: absolute;
+    font-size: 20px;
+}
 
 .menu-area li:hover > .dropdown li {
     display: block;
@@ -99,10 +117,10 @@ nav {
         box-shadow: 3px 3px 3px #013709;
         border-radius: 30px;
         height: 5px;
-        width:30px;
+        width: 30px;
         transform: translate(10%, 0);
         margin-bottom: 6px;
-        margin-top:6px
+        margin-top: 6px
     }
 
 
