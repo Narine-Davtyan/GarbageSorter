@@ -20,30 +20,51 @@
 <body>
     <!--collapsible Navbar: Navigate to other pages of web site -->
     <nav class="navbar navbar-expand-md sticky-top">
-        <img src="../Content/Images/logo.jfif" alt="Էկոլոգիա" style="width:5%">
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Գլխավոր</a>
+
+        <img id="logo" src="../Content/Images/logo.jfif" alt="Էկոլոգիա" style="width:5%">
+
+        <div class="humburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!--Navbar menu-->
+        <div id="menu-navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Գլխավոր</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="companies.html">Ընկերություններ</a>
+                <li>
+                    <a href="companies.html">Ընկերություններ</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Նյութեր</a>
+                <li>
+                    <a href="#">Նյութեր</a>
+                    <span></span>
+                    <ul>
+                        <li>
+                            <a href="books.html">Գրքեր</a>
+                        </li>
+                        <li>
+                            <a href="videos.html">Տեսանյութեր</a>
+                        </li>
+                        <li>
+                            <a href="articles.html">Հոդվածներ</a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="game.html">Խաղ</a>
+                <li>
+                    <a href="game.html">Խաղ</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="feedback.html">Հետադարձ կապ</a>
+                <li>
+                    <a href="feedback.html">Հետադարձ կապ</a>
                 </li>
             </ul>
         </div>
 
-        <div class="icono">
+        <div class="search-cl">
             <input type="text" name="Search" placeholder="Փնտրել">
-            <a href="#" input="" type="text" name="Փնտրել" placeholder="Փնտրել" style="background-color: aquamarine;"></a>&nbsp;
+            <a href="#" input type="text" name="Փնտրել" placeholder="Փնտրել" style="background-color: aquamarine;"></a>&nbsp;
             <a href="#" class=" btn border-btn">Մուտք</a>
         </div>
 
