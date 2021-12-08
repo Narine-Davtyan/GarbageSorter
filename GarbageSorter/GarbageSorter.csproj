@@ -208,6 +208,7 @@
     <Content Include="Content\Images\foto3.jfif" />
     <Content Include="Content\Images\foto4.jfif" />
     <Content Include="Content\Images\logo.jfif" />
+    <Content Include="Scripts\navbar.js" />
     <Content Include="Templates\articles.html" />
     <Content Include="Templates\books.html" />
     <Content Include="Templates\company-profile - settings.html" />

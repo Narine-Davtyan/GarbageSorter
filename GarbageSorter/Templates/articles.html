@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <script src="../Scripts/navbar.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -65,7 +67,16 @@
         <div class="search-cl">
             <input type="text" name="Search" placeholder="Փնտրել">
             <a href="#" input type="text" name="Փնտրել" placeholder="Փնտրել" style="background-color: aquamarine;"></a>&nbsp;
-            <a href="#" class=" btn border-btn">Մուտք</a>
+            <a id="signin" href="#" class=" btn border-btn">Մուտք</a>
+            <div class="login">
+                <input type="text" class="el" placeholder="Մուտքանուն" />
+                <input type="text" class="el" placeholder="Գաղտնաբառ" /> <br>
+                <input type="button" class="el btn-login" value="Հաստատել" /><br>
+
+                <h5><b>Գրանցվա՞ծ չեք </b></h5><br>
+                <a href="#">Գրանցվել</a><br>
+                <a href="#">Մոռացե՞լ եք գաղտնաբառը </a>
+            </div>
         </div>
 
     </nav>
