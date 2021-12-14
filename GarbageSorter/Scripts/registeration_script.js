@@ -1,5 +1,4 @@
-﻿$(document).ready(function () {
-
+﻿$(() => {
     $('.input').focus(function () {
         $(this).parent().find(".label-txt").addClass('label-active');
     });
@@ -9,7 +8,4 @@
             $(this).parent().find(".label-txt").removeClass('label-active');
         };
     });
-
-});
-
-
+})

@@ -215,6 +215,7 @@
     <Content Include="Templates\books.html" />
     <Content Include="Templates\company-profile - settings.html" />
     <Content Include="Templates\company-profile.html" />
+    <Content Include="Templates\user-registeration.html" />
     <Content Include="Templates\company.html" />
     <Content Include="Templates\companies.html" />
     <Content Include="Templates\feedback.html" />
@@ -227,6 +228,7 @@
     <Content Include="Templates\index.html" />
     <Content Include="Content\CustomStyles\style.css" />
     <Content Include="Templates\questions.html" />
+    <Content Include="Templates\company-registeration.html" />
     <Content Include="Templates\registeration.html" />
     <Content Include="Templates\services.html" />
     <Content Include="Templates\videos.html" />
