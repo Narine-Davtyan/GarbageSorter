@@ -213,8 +213,9 @@
     <Content Include="Scripts\registeration_script.js" />
     <Content Include="Templates\articles.html" />
     <Content Include="Templates\books.html" />
-    <Content Include="Templates\company-profile - settings.html" />
+    <Content Include="Templates\company-profile-settings.html" />
     <Content Include="Templates\company-profile.html" />
+    <Content Include="Templates\person-profile-settings.html" />
     <Content Include="Templates\user-registeration.html" />
     <Content Include="Templates\company.html" />
     <Content Include="Templates\companies.html" />
@@ -222,7 +223,6 @@
     <Content Include="Templates\game.html" />
     <Content Include="Templates\gallery.html" />
     <Content Include="Templates\news.html" />
-    <Content Include="Templates\person-profile - settings.html" />
     <Content Include="Templates\person-profile.html" />
     <Content Include="Templates\post.html" />
     <Content Include="Templates\index.html" />
