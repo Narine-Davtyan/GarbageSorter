@@ -218,7 +218,6 @@
     <Content Include="Templates\company-profile.html" />
     <Content Include="Templates\person-profile-settings.html" />
     <Content Include="Templates\person-registeration.html" />
-    <Content Include="Templates\user-registeration.html" />
     <Content Include="Templates\company.html" />
     <Content Include="Templates\companies.html" />
     <Content Include="Templates\feedback.html" />
