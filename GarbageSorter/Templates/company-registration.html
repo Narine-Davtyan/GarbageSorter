@@ -9,14 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
-    
-    <link href="../Content/CustomStyles/registeration-stlyle.css" rel="stylesheet" type="text/css" />
-    <script src="../Scripts/registeration_script.js" type="text/javascript"></script>
+
+    <link href="../Content/CustomStyles/upload-image.css" rel="stylesheet" />
+    <link href="../Content/CustomStyles/registration-style.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/registration.js" type="text/javascript"></script>
+    <script src="../Scripts/upload-image.js"></script>
 
 </head>
 <body>
@@ -59,10 +61,27 @@
             <div class="line"></div>
         </div>
 
-        <br>
-
-        <input type="image" class="input" value="Ընտրել նկար․․․">
        
+
+        <!-- <input type="image" class="input" id="upload_file" value="Ընտրել նկար․․․">-->
+
+
+        <div class="container">
+            <div class="panel">
+                <div class="button_outer">
+                    <div class="btn_upload">
+                        <input type="file" id="upload_file">
+                        Ընտրել նկար
+                    </div>
+                    <div class="processing_bar"></div>
+                    <div class="success_box"></div>
+                </div>
+            </div>
+            <div class="error_msg"></div>
+            <div class="uploaded_file_view" id="uploaded_view">
+                <span class="file_remove">X</span>
+            </div>
+        </div>
 
         <br><br>
 
